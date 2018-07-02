@@ -1,5 +1,5 @@
 // -----------------------------------------------------------------------------
-package com.fomin.yamg;
+package com.matalok.yamg;
 
 // -----------------------------------------------------------------------------
 import java.io.IOException;
@@ -15,10 +15,10 @@ public class CfgReader {
             XmlReader xmlReader = new XmlReader();
             return xmlReader.parse(Gdx.files.internal(path));
 
-        } catch (IOException e) { 
-            Utils.Assert(false, "IOException while reading");
+//        } catch (IOException e) {
+//            Utils.Assert(false, "IOException while reading");
 
-        } catch (Exception e) { 
+        } catch (Exception e) {
             Utils.Assert(false, "Exception while reading"); 
         }
         return null;

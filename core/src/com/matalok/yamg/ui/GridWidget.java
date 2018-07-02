@@ -1,14 +1,14 @@
 // -----------------------------------------------------------------------------
-package com.fomin.yamg.ui;
+package com.matalok.yamg.ui;
 
 //-----------------------------------------------------------------------------
 import com.badlogic.gdx.scenes.scene2d.Actor;
+import com.badlogic.gdx.scenes.scene2d.ui.Cell;
 import com.badlogic.gdx.scenes.scene2d.ui.Table;
-import com.esotericsoftware.tablelayout.Cell;
-import com.fomin.yamg.CommonTask;
-import com.fomin.yamg.Obj;
-import com.fomin.yamg.TaskMan;
-import com.fomin.yamg.Utils;
+import com.matalok.yamg.CommonTask;
+import com.matalok.yamg.Obj;
+import com.matalok.yamg.TaskMan;
+import com.matalok.yamg.Utils;
 
 // -----------------------------------------------------------------------------
 public class GridWidget extends CommonWidget {
@@ -28,12 +28,12 @@ public class GridWidget extends CommonWidget {
 
         // ---------------------------------------------------------------------
         public void SetWidget(CommonWidget w) {
-            this.w = w; this.cell.setWidget(w.actor);
+            this.w = w; this.cell.setActor(w.actor);
         }
 
         // ---------------------------------------------------------------------
         public void SetActor(Actor a) {
-            this.w = null; this.cell.setWidget(a);
+            this.w = null; this.cell.setActor(a);
         }
     }
 

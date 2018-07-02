@@ -1,5 +1,5 @@
 // -----------------------------------------------------------------------------
-package com.fomin.yamg.pixelmap;
+package com.matalok.yamg.pixelmap;
 
 // -----------------------------------------------------------------------------
 import java.util.HashMap;
@@ -19,13 +19,13 @@ import com.badlogic.gdx.graphics.glutils.FrameBuffer;
 import com.badlogic.gdx.graphics.glutils.ShaderProgram;
 import com.badlogic.gdx.math.Matrix4;
 import com.badlogic.gdx.utils.Array;
-import com.fomin.yamg.CommonObject;
-import com.fomin.yamg.Logger;
-import com.fomin.yamg.Map2d;
-import com.fomin.yamg.Obj;
-import com.fomin.yamg.ShaderMan;
-import com.fomin.yamg.Timer;
-import com.fomin.yamg.Utils;
+import com.matalok.yamg.CommonObject;
+import com.matalok.yamg.Logger;
+import com.matalok.yamg.Map2d;
+import com.matalok.yamg.Obj;
+import com.matalok.yamg.ShaderMan;
+import com.matalok.yamg.Timer;
+import com.matalok.yamg.Utils;
 
 // -----------------------------------------------------------------------------
 public class Pixelmap extends Obj.CommonObject {

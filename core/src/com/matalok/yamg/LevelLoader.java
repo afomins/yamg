@@ -1,12 +1,12 @@
 // -----------------------------------------------------------------------------
-package com.fomin.yamg;
+package com.matalok.yamg;
 
 // -----------------------------------------------------------------------------
 import com.badlogic.gdx.utils.XmlReader;
-import com.fomin.yamg.TaskMan.Task;
-import com.fomin.yamg.fallingsand.Material;
-import com.fomin.yamg.game.GameMan;
-import com.fomin.yamg.pixelmap.Pixelmap;
+import com.matalok.yamg.TaskMan.Task;
+import com.matalok.yamg.fallingsand.Material;
+import com.matalok.yamg.game.GameMan;
+import com.matalok.yamg.pixelmap.Pixelmap;
 
 // -----------------------------------------------------------------------------
 public class LevelLoader extends ServiceMan.Service implements TaskMan.ITaskListener {

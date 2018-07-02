@@ -1,5 +1,5 @@
 // -----------------------------------------------------------------------------
-package com.fomin.yamg;
+package com.matalok.yamg;
 
 // -----------------------------------------------------------------------------
 import com.badlogic.gdx.Gdx;
@@ -22,6 +22,7 @@ public class CommonObject {
         public CommonPixmap(int width, int height, Pixmap.Format fmt) {
             super(Obj.MISC.ptr, Obj.MISC.PIXMAP);
             this.obj = new Pixmap(width, height, fmt);
+            this.obj.setBlending(Pixmap.Blending.None);
         }
 
         // ---------------------------------------------------------------------
@@ -52,6 +53,7 @@ public class CommonObject {
         public CommonPixmap Read(String path) {
             if(this.obj != null) this.obj.dispose();
             this.obj = new Pixmap(Gdx.files.internal(path));
+            this.obj.setBlending(Pixmap.Blending.None);
             return this;
         }
 
@@ -86,6 +88,7 @@ public class CommonObject {
             super(Obj.MISC.ptr, Obj.MISC.TEXTURE);
 
             Pixmap pm = new Pixmap(width, height, fmt);
+            pm.setBlending(Pixmap.Blending.None);
             pm.setColor(c); pm.fill();
             this.obj = new Texture(pm, false);
             pm.dispose();

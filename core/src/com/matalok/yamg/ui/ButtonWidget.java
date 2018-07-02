@@ -1,5 +1,5 @@
 // -----------------------------------------------------------------------------
-package com.fomin.yamg.ui;
+package com.matalok.yamg.ui;
 
 //-----------------------------------------------------------------------------
 import com.badlogic.gdx.graphics.Texture;
@@ -9,11 +9,11 @@ import com.badlogic.gdx.scenes.scene2d.ui.ImageButton;
 import com.badlogic.gdx.scenes.scene2d.utils.TextureRegionDrawable;
 import com.badlogic.gdx.utils.Array;
 import com.badlogic.gdx.utils.XmlReader;
-import com.fomin.yamg.CfgReader;
-import com.fomin.yamg.CommonObject;
-import com.fomin.yamg.Logger;
-import com.fomin.yamg.Obj;
-import com.fomin.yamg.Utils;
+import com.matalok.yamg.CfgReader;
+import com.matalok.yamg.CommonObject;
+import com.matalok.yamg.Logger;
+import com.matalok.yamg.Obj;
+import com.matalok.yamg.Utils;
 
 // -----------------------------------------------------------------------------
 public class ButtonWidget extends CommonWidget {

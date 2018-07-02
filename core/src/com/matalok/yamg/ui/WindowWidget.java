@@ -1,5 +1,5 @@
 // -----------------------------------------------------------------------------
-package com.fomin.yamg.ui;
+package com.matalok.yamg.ui;
 
 // -----------------------------------------------------------------------------
 import com.badlogic.gdx.graphics.Color;
@@ -8,9 +8,8 @@ import com.badlogic.gdx.graphics.Texture;
 import com.badlogic.gdx.graphics.g2d.BitmapFont;
 import com.badlogic.gdx.scenes.scene2d.ui.Image;
 import com.badlogic.gdx.scenes.scene2d.ui.Table;
-import com.badlogic.gdx.scenes.scene2d.utils.Align;
-import com.fomin.yamg.Obj;
-import com.fomin.yamg.CommonObject;
+import com.matalok.yamg.Obj;
+import com.matalok.yamg.CommonObject;
 
 // -----------------------------------------------------------------------------
 public class WindowWidget extends ContainerWidget {

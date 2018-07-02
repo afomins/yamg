@@ -1,10 +1,10 @@
 // -----------------------------------------------------------------------------
-package com.fomin.yamg.state;
+package com.matalok.yamg.state;
 
 //-----------------------------------------------------------------------------
 import com.badlogic.gdx.InputProcessor;
-import com.fomin.yamg.Obj;
-import com.fomin.yamg.ui.CommonWidget;
+import com.matalok.yamg.Obj;
+import com.matalok.yamg.ui.CommonWidget;
 
 //-----------------------------------------------------------------------------
 public class GameTntState extends StateMan.State {

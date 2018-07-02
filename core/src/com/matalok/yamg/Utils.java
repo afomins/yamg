@@ -1,5 +1,5 @@
 // -----------------------------------------------------------------------------
-package com.fomin.yamg;
+package com.matalok.yamg;
 
 // -----------------------------------------------------------------------------
 import com.badlogic.gdx.Gdx;
@@ -288,7 +288,7 @@ public class Utils {
     // Misc
     public static int GetGlVersion() {
              if(Gdx.gl20 != null) return 2;
-        else if(Gdx.gl10 != null) return 1;
+//        else if(Gdx.gl10 != null) return 1;
         else                      return Utils.ID_UNDEFINED;
     }
 

@@ -1,14 +1,14 @@
 // -----------------------------------------------------------------------------
-package com.fomin.yamg.ui;
+package com.matalok.yamg.ui;
 
 // -----------------------------------------------------------------------------
 import com.badlogic.gdx.graphics.Color;
 import com.badlogic.gdx.utils.XmlReader;
-import com.fomin.yamg.CfgReader;
-import com.fomin.yamg.CommonTask;
-import com.fomin.yamg.TaskMan;
-import com.fomin.yamg.Utils;
-import com.fomin.yamg.Utils.Vector2f;
+import com.matalok.yamg.CfgReader;
+import com.matalok.yamg.CommonTask;
+import com.matalok.yamg.TaskMan;
+import com.matalok.yamg.Utils;
+import com.matalok.yamg.Utils.Vector2f;
 
 // -----------------------------------------------------------------------------
 public class WindowScroller {

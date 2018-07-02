@@ -1,18 +1,18 @@
 // -----------------------------------------------------------------------------
-package com.fomin.yamg.state;
+package com.matalok.yamg.state;
 
 //-----------------------------------------------------------------------------
-import com.fomin.yamg.CommonTask;
-import com.fomin.yamg.LevelLoader;
-import com.fomin.yamg.Logger;
-import com.fomin.yamg.Obj;
-import com.fomin.yamg.TaskMan;
-import com.fomin.yamg.Timer;
-import com.fomin.yamg.Utils;
-import com.fomin.yamg.TaskMan.Task;
-import com.fomin.yamg.game.GameMan;
-import com.fomin.yamg.ui.ContainerWidget;
-import com.fomin.yamg.ui.UiMan;
+import com.matalok.yamg.CommonTask;
+import com.matalok.yamg.LevelLoader;
+import com.matalok.yamg.Logger;
+import com.matalok.yamg.Obj;
+import com.matalok.yamg.TaskMan;
+import com.matalok.yamg.Timer;
+import com.matalok.yamg.Utils;
+import com.matalok.yamg.TaskMan.Task;
+import com.matalok.yamg.game.GameMan;
+import com.matalok.yamg.ui.ContainerWidget;
+import com.matalok.yamg.ui.UiMan;
 
 // -----------------------------------------------------------------------------
 public class LoadLevelState extends StateMan.State {

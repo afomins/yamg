@@ -1,14 +1,14 @@
 // -----------------------------------------------------------------------------
-package com.fomin.yamg.state;
+package com.matalok.yamg.state;
 
 //-----------------------------------------------------------------------------
-import com.fomin.yamg.CommonTask;
-import com.fomin.yamg.Obj;
-import com.fomin.yamg.ServiceMan;
-import com.fomin.yamg.TaskMan;
-import com.fomin.yamg.TaskMan.Task;
-import com.fomin.yamg.ui.UiMan;
-import com.fomin.yamg.ui.WindowScroller;
+import com.matalok.yamg.CommonTask;
+import com.matalok.yamg.Obj;
+import com.matalok.yamg.ServiceMan;
+import com.matalok.yamg.TaskMan;
+import com.matalok.yamg.TaskMan.Task;
+import com.matalok.yamg.ui.UiMan;
+import com.matalok.yamg.ui.WindowScroller;
 
 //-----------------------------------------------------------------------------
 public class ShutdownState extends StateMan.State {

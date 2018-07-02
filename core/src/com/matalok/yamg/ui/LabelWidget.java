@@ -1,12 +1,12 @@
 // -----------------------------------------------------------------------------
-package com.fomin.yamg.ui;
+package com.matalok.yamg.ui;
 
 //-----------------------------------------------------------------------------
 import com.badlogic.gdx.graphics.Color;
 import com.badlogic.gdx.graphics.g2d.BitmapFont;
 import com.badlogic.gdx.scenes.scene2d.ui.Label;
-import com.badlogic.gdx.scenes.scene2d.utils.Align;
-import com.fomin.yamg.Obj;
+import com.badlogic.gdx.utils.Align;
+import com.matalok.yamg.Obj;
 
 // -----------------------------------------------------------------------------
 public class LabelWidget extends CommonWidget {

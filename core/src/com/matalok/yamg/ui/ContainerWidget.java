@@ -1,10 +1,10 @@
 // -----------------------------------------------------------------------------
-package com.fomin.yamg.ui;
+package com.matalok.yamg.ui;
 
 // -----------------------------------------------------------------------------
 import com.badlogic.gdx.scenes.scene2d.Actor;
 import com.badlogic.gdx.scenes.scene2d.ui.WidgetGroup;
-import com.fomin.yamg.Obj;
+import com.matalok.yamg.Obj;
 
 // -----------------------------------------------------------------------------
 public class ContainerWidget extends CommonWidget {

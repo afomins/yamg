@@ -2,9 +2,9 @@
 package com.matalok.yamg.fallingsand;
 
 //-----------------------------------------------------------------------------
-import com.fomin.yamg.Logger;
-import com.fomin.yamg.Obj;
-import com.fomin.yamg.Utils;
+import com.matalok.yamg.Logger;
+import com.matalok.yamg.Obj;
+import com.matalok.yamg.Utils;
 
 // -----------------------------------------------------------------------------
 public class Material {

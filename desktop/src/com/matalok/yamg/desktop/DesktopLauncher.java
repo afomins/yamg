@@ -7,6 +7,6 @@ import com.matalok.yamg.Main;
 public class DesktopLauncher {
 	public static void main (String[] arg) {
 		LwjglApplicationConfiguration config = new LwjglApplicationConfiguration();
-		new LwjglApplication(new Main(), config);
+		new LwjglApplication(new Main(true), config);
 	}
 }

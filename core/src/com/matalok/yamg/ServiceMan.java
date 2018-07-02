@@ -1,5 +1,5 @@
 // -----------------------------------------------------------------------------
-package com.fomin.yamg;
+package com.matalok.yamg;
 
 // -----------------------------------------------------------------------------
 import com.badlogic.gdx.Gdx;
@@ -46,7 +46,7 @@ public class ServiceMan {
         this.timer_rate = Utils.Str2Int(CfgReader.GetAttrib(cfg, "service-man:config:timer-rate"));
 
         // Disable blending
-        Pixmap.setBlending(Pixmap.Blending.None);
+//        Pixmap.setBlending(Pixmap.Blending.None);
 
         Logger.i("Starting service manager :: [generation=%d]", generation);
     }

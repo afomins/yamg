@@ -1,10 +1,10 @@
 // -----------------------------------------------------------------------------
-package com.fomin.yamg.ui;
+package com.matalok.yamg.ui;
 
 // -----------------------------------------------------------------------------
 import com.badlogic.gdx.scenes.scene2d.ui.Image;
-import com.fomin.yamg.CommonObject;
-import com.fomin.yamg.Obj;
+import com.matalok.yamg.CommonObject;
+import com.matalok.yamg.Obj;
 
 // -----------------------------------------------------------------------------
 public class ImageWidget extends CommonWidget {

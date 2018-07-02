@@ -1,5 +1,5 @@
 // -----------------------------------------------------------------------------
-package com.fomin.yamg.ui;
+package com.matalok.yamg.ui;
 
 // -----------------------------------------------------------------------------
 import java.util.HashMap;
@@ -12,13 +12,15 @@ import com.badlogic.gdx.graphics.Color;
 import com.badlogic.gdx.scenes.scene2d.Stage;
 import com.badlogic.gdx.utils.Array;
 import com.badlogic.gdx.utils.XmlReader;
-import com.fomin.yamg.CfgReader;
-import com.fomin.yamg.CommonObject;
-import com.fomin.yamg.Obj;
-import com.fomin.yamg.ServiceMan;
-import com.fomin.yamg.TaskMan;
-import com.fomin.yamg.Timer;
-import com.fomin.yamg.Utils;
+import com.badlogic.gdx.utils.viewport.ScreenViewport;
+import com.badlogic.gdx.utils.viewport.Viewport;
+import com.matalok.yamg.CfgReader;
+import com.matalok.yamg.CommonObject;
+import com.matalok.yamg.Obj;
+import com.matalok.yamg.ServiceMan;
+import com.matalok.yamg.TaskMan;
+import com.matalok.yamg.Timer;
+import com.matalok.yamg.Utils;
 
 // -----------------------------------------------------------------------------
 public class UiMan extends ServiceMan.Service {
@@ -171,7 +173,9 @@ public class UiMan extends ServiceMan.Service {
 
         // Stage
         this.stage = new Stage();
-        this.stage.setViewport(this.screen_size.x, this.screen_size.y, true);
+        this.stage.setViewport(new ScreenViewport());
+        this.stage.getViewport().update(this.screen_size.x, this.screen_size.y, true);
+//        this.stage.setViewport(this.screen_size.x, this.screen_size.y, true);
 
         // Widget array
         this.widget = new Array<CommonWidget>();
@@ -237,7 +241,7 @@ public class UiMan extends ServiceMan.Service {
           wnd.GetClientRect().width / 2 - img.GetSize().x / 2, 
           wnd.GetClientRect().height - img.GetSize().y - this.main_menu_button_size.y / 2);
         {
-            l = new LabelWidget(Color.WHITE, "(c) 2013 Alex Fomin, afomins@gmail.com");
+            l = new LabelWidget(Color.WHITE, "(c) 2013 Alex matalok, amataloks@gmail.com");
             wnd.AddChild(l).SetPos(4, 2);
             this.AddWidget(Utils.ID_UNDEFINED, l, false);
             int label_height = l.GetSize().y;

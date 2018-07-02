@@ -1,5 +1,5 @@
 // -----------------------------------------------------------------------------
-package com.fomin.yamg.ui;
+package com.matalok.yamg.ui;
 
 // -----------------------------------------------------------------------------
 import com.badlogic.gdx.graphics.Color;
@@ -7,10 +7,10 @@ import com.badlogic.gdx.scenes.scene2d.Actor;
 import com.badlogic.gdx.scenes.scene2d.InputEvent;
 import com.badlogic.gdx.scenes.scene2d.InputListener;
 import com.badlogic.gdx.scenes.scene2d.utils.ClickListener;
-import com.fomin.yamg.CommonTask;
-import com.fomin.yamg.Logger;
-import com.fomin.yamg.Obj;
-import com.fomin.yamg.Utils;
+import com.matalok.yamg.CommonTask;
+import com.matalok.yamg.Logger;
+import com.matalok.yamg.Obj;
+import com.matalok.yamg.Utils;
 
 // -----------------------------------------------------------------------------
 public abstract class CommonWidget extends Obj.CommonObject 
@@ -150,7 +150,9 @@ public abstract class CommonWidget extends Obj.CommonObject
     // -------------------------------------------------------------------------
     protected void RegisterInputListener(InputListener listener) {
         // Remove old listener
-        this.actor.removeListener(this.input_listener);
+        if(this.input_listener != null) {
+            this.actor.removeListener(this.input_listener);
+        }
 
         // Register new listener
         this.input_listener = listener;

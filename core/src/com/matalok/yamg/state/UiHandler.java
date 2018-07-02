@@ -1,15 +1,15 @@
 // -----------------------------------------------------------------------------
-package com.fomin.yamg.state;
+package com.matalok.yamg.state;
 
 //-----------------------------------------------------------------------------
 import com.badlogic.gdx.Input.Keys;
 import com.badlogic.gdx.InputProcessor;
-import com.fomin.yamg.Obj;
-import com.fomin.yamg.TaskMan;
-import com.fomin.yamg.Utils;
-import com.fomin.yamg.ui.ButtonWidget;
-import com.fomin.yamg.ui.CommonWidget;
-import com.fomin.yamg.ui.UiMan;
+import com.matalok.yamg.Obj;
+import com.matalok.yamg.TaskMan;
+import com.matalok.yamg.Utils;
+import com.matalok.yamg.ui.ButtonWidget;
+import com.matalok.yamg.ui.CommonWidget;
+import com.matalok.yamg.ui.UiMan;
 
 // -----------------------------------------------------------------------------
 public class UiHandler implements InputProcessor {

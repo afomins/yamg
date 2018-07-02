@@ -1,5 +1,5 @@
 // -----------------------------------------------------------------------------
-package com.fomin.yamg;
+package com.matalok.yamg;
 
 //-----------------------------------------------------------------------------
 import java.util.Iterator;
@@ -8,7 +8,7 @@ import com.badlogic.gdx.Gdx;
 import com.badlogic.gdx.files.FileHandle;
 import com.badlogic.gdx.graphics.Pixmap;
 import com.badlogic.gdx.utils.ObjectMap;
-import com.fomin.yamg.Utils.Vector2i;
+import com.matalok.yamg.Utils.Vector2i;
 
 // -----------------------------------------------------------------------------
 public class Map2d<T> {
@@ -187,7 +187,7 @@ public class Map2d<T> {
         // Prepare map data
         Pixmap pm = Map2d.LoadPixmap(path);
         this.Init(pm.getWidth(), pm.getHeight(), default_val);
-        Logger.d(Logger.MOD_MISC, "Loading 2D map :: [path=%s] [size=%d:%d]", 
+        Logger.d(Logger.MOD_MISC, "Loading 2D map :: [path=%s] [size=%d:%d]",
           path, pm.getWidth(), pm.getHeight());
 
         // Fill map
@@ -195,6 +195,9 @@ public class Map2d<T> {
             for(int x = 0; x < pm.getWidth(); x++) {
                 int rgb = pm.getPixel(x, y);
                 T val = (cm != null && cm.get(rgb) != null) ? cm.get(rgb) : this.default_val;
+                if(val instanceof Byte) {
+                    Logger.d("JJFK :: rgb=%d pm=%d", rgb, (Byte) val);
+                }
                 this.SetEntry(x, y, val);
             }
         }
@@ -269,7 +272,9 @@ public class Map2d<T> {
     // -------------------------------------------------------------------------
     public static Pixmap LoadPixmap(String path) {
         FileHandle h_file = Gdx.files.internal(path);
-        return new Pixmap(h_file);
+        Pixmap pm = new Pixmap(h_file);
+        pm.setBlending(Pixmap.Blending.None);
+        return pm;
     }
 
     // -------------------------------------------------------------------------

@@ -1,9 +1,9 @@
 // -----------------------------------------------------------------------------
-package com.fomin.yamg.pixelmap;
+package com.matalok.yamg.pixelmap;
 
 // -----------------------------------------------------------------------------
 import com.badlogic.gdx.graphics.Color;
-import com.fomin.yamg.TweenObject;
+import com.matalok.yamg.TweenObject;
 
 // -----------------------------------------------------------------------------
 public class FadingColor extends TweenObject {

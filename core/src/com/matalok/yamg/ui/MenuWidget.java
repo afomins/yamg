@@ -1,13 +1,13 @@
 // -----------------------------------------------------------------------------
-package com.fomin.yamg.ui;
+package com.matalok.yamg.ui;
 
 //-----------------------------------------------------------------------------
 import com.badlogic.gdx.scenes.scene2d.ui.Button;
 import com.badlogic.gdx.scenes.scene2d.ui.ButtonGroup;
-import com.fomin.yamg.CommonTask;
-import com.fomin.yamg.Obj;
-import com.fomin.yamg.TaskMan;
-import com.fomin.yamg.Utils;
+import com.matalok.yamg.CommonTask;
+import com.matalok.yamg.Obj;
+import com.matalok.yamg.TaskMan;
+import com.matalok.yamg.Utils;
 
 // -----------------------------------------------------------------------------
 public class MenuWidget extends GridWidget {

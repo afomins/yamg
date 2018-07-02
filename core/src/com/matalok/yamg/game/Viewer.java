@@ -1,20 +1,19 @@
 // -----------------------------------------------------------------------------
-package com.fomin.yamg.game;
+package com.matalok.yamg.game;
 
 // -----------------------------------------------------------------------------
 import com.badlogic.gdx.Gdx;
 import com.badlogic.gdx.graphics.Camera;
 import com.badlogic.gdx.graphics.Color;
-import com.badlogic.gdx.graphics.GL10;
 import com.badlogic.gdx.graphics.GL20;
 import com.badlogic.gdx.graphics.OrthographicCamera;
 import com.badlogic.gdx.math.Matrix4;
 import com.badlogic.gdx.math.Vector3;
-import com.fomin.yamg.CommonTask;
-import com.fomin.yamg.Obj;
-import com.fomin.yamg.Utils;
-import com.fomin.yamg.pixelmap.Surface;
-import com.fomin.yamg.ui.UiMan;
+import com.matalok.yamg.CommonTask;
+import com.matalok.yamg.Obj;
+import com.matalok.yamg.Utils;
+import com.matalok.yamg.pixelmap.Surface;
+import com.matalok.yamg.ui.UiMan;
 
 // -----------------------------------------------------------------------------
 public abstract class Viewer extends Obj.CommonObject 
@@ -118,9 +117,9 @@ public abstract class Viewer extends Obj.CommonObject
 
         // GL context
         Gdx.gl.glClearDepthf(1.0f);
-        Gdx.gl.glFrontFace(GL10.GL_CW);
-        Gdx.gl.glEnable(GL10.GL_CULL_FACE);
-        Gdx.gl.glCullFace(GL10.GL_BACK);
+        Gdx.gl.glFrontFace(GL20.GL_CW);
+        Gdx.gl.glEnable(GL20.GL_CULL_FACE);
+        Gdx.gl.glCullFace(GL20.GL_BACK);
     }
 
     // -------------------------------------------------------------------------

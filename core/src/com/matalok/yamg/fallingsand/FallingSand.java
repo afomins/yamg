@@ -1,11 +1,11 @@
 // -----------------------------------------------------------------------------
-package com.fomin.yamg.fallingsand;
+package com.matalok.yamg.fallingsand;
 
 //-----------------------------------------------------------------------------
 import com.badlogic.gdx.math.MathUtils;
-import com.fomin.yamg.Map2d;
-import com.fomin.yamg.Utils;
-import com.fomin.yamg.pixelmap.Pixelmap;
+import com.matalok.yamg.Map2d;
+import com.matalok.yamg.Utils;
+import com.matalok.yamg.pixelmap.Pixelmap;
 
 // -----------------------------------------------------------------------------
 public class FallingSand {

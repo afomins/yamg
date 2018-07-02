@@ -1,15 +1,15 @@
 // -----------------------------------------------------------------------------
-package com.fomin.yamg.game;
+package com.matalok.yamg.game;
 
 // -----------------------------------------------------------------------------
 import com.badlogic.gdx.Input.Buttons;
 import com.badlogic.gdx.input.GestureDetector;
 import com.badlogic.gdx.input.GestureDetector.GestureListener;
 import com.badlogic.gdx.math.Vector2;
-import com.fomin.yamg.Map2d;
-import com.fomin.yamg.Utils;
-import com.fomin.yamg.fallingsand.FallingSand;
-import com.fomin.yamg.fallingsand.Material;
+import com.matalok.yamg.Map2d;
+import com.matalok.yamg.Utils;
+import com.matalok.yamg.fallingsand.FallingSand;
+import com.matalok.yamg.fallingsand.Material;
 
 // -----------------------------------------------------------------------------
 public class GameInput {
@@ -61,6 +61,10 @@ public class GameInput {
 
         // ---------------------------------------------------------------------
         @Override
+        public boolean panStop(float x, float y, int pointer, int button) { return false; }
+
+        // ---------------------------------------------------------------------
+        @Override
         public boolean zoom(float originalDistance, float currentDistance) {
             GameMan.p.UpdateZoom(
               originalDistance, currentDistance, GameMan.p.viewer.GetZoom());
@@ -72,6 +76,10 @@ public class GameInput {
         public boolean pinch (Vector2 initialFirstPointer, Vector2 initialSecondPointer, 
           Vector2 firstPointer, Vector2 secondPointer) {
            return false;
+        }
+
+        // ---------------------------------------------------------------------
+        @Override public void pinchStop() {
         }
     }
 

@@ -1,11 +1,11 @@
 // -----------------------------------------------------------------------------
-package com.fomin.yamg;
+package com.matalok.yamg;
 
 // -----------------------------------------------------------------------------
 import com.badlogic.gdx.ApplicationListener;
-import com.fomin.yamg.game.GameMan;
-import com.fomin.yamg.state.StateMan;
-import com.fomin.yamg.ui.UiMan;
+import com.matalok.yamg.game.GameMan;
+import com.matalok.yamg.state.StateMan;
+import com.matalok.yamg.ui.UiMan;
 
 // -----------------------------------------------------------------------------
 public class Main implements ApplicationListener {

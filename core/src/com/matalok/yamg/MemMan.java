@@ -1,9 +1,9 @@
 // -----------------------------------------------------------------------------
-package com.fomin.yamg;
+package com.matalok.yamg;
 
 // -----------------------------------------------------------------------------
 import com.badlogic.gdx.utils.XmlReader;
-import com.fomin.yamg.ui.UiMan;
+import com.matalok.yamg.ui.UiMan;
 
 // -----------------------------------------------------------------------------
 public class MemMan extends ServiceMan.Service {

@@ -1,10 +1,10 @@
 // -----------------------------------------------------------------------------
-package com.fomin.yamg.fallingsand;
+package com.matalok.yamg.fallingsand;
 
 // -----------------------------------------------------------------------------
 import com.badlogic.gdx.math.MathUtils;
-import com.fomin.yamg.Timer;
-import com.fomin.yamg.Utils;
+import com.matalok.yamg.Timer;
+import com.matalok.yamg.Utils;
 
 // -----------------------------------------------------------------------------
 public class Block {

@@ -1,15 +1,15 @@
 // -----------------------------------------------------------------------------
-package com.fomin.yamg.state;
+package com.matalok.yamg.state;
 
 //-----------------------------------------------------------------------------
 import com.badlogic.gdx.InputProcessor;
-import com.fomin.yamg.LevelLoader;
-import com.fomin.yamg.Obj;
-import com.fomin.yamg.TaskMan;
-import com.fomin.yamg.game.GameMan;
-import com.fomin.yamg.ui.CommonWidget;
-import com.fomin.yamg.ui.UiMan;
-import com.fomin.yamg.ui.WindowScroller;
+import com.matalok.yamg.LevelLoader;
+import com.matalok.yamg.Obj;
+import com.matalok.yamg.TaskMan;
+import com.matalok.yamg.game.GameMan;
+import com.matalok.yamg.ui.CommonWidget;
+import com.matalok.yamg.ui.UiMan;
+import com.matalok.yamg.ui.WindowScroller;
 
 // -----------------------------------------------------------------------------
 public class MainMenuSelectLevelState extends StateMan.State {

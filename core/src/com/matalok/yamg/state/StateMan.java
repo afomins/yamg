@@ -1,21 +1,21 @@
 // -----------------------------------------------------------------------------
-package com.fomin.yamg.state;
+package com.matalok.yamg.state;
 
 // -----------------------------------------------------------------------------
 import com.badlogic.gdx.Gdx;
 import com.badlogic.gdx.InputProcessor;
 import com.badlogic.gdx.utils.Array;
 import com.badlogic.gdx.utils.XmlReader;
-import com.fomin.yamg.CfgReader;
-import com.fomin.yamg.Logger;
-import com.fomin.yamg.Obj;
-import com.fomin.yamg.ServiceMan;
-import com.fomin.yamg.TaskMan;
-import com.fomin.yamg.Utils;
-import com.fomin.yamg.TaskMan.Task;
-import com.fomin.yamg.game.GameMan;
-import com.fomin.yamg.ui.CommonWidget;
-import com.fomin.yamg.ui.UiMan;
+import com.matalok.yamg.CfgReader;
+import com.matalok.yamg.Logger;
+import com.matalok.yamg.Obj;
+import com.matalok.yamg.ServiceMan;
+import com.matalok.yamg.TaskMan;
+import com.matalok.yamg.Utils;
+import com.matalok.yamg.TaskMan.Task;
+import com.matalok.yamg.game.GameMan;
+import com.matalok.yamg.ui.CommonWidget;
+import com.matalok.yamg.ui.UiMan;
 
 // -----------------------------------------------------------------------------
 public class StateMan extends ServiceMan.Service {

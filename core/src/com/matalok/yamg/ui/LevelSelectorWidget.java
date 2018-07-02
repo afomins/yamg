@@ -1,5 +1,5 @@
 // -----------------------------------------------------------------------------
-package com.fomin.yamg.ui;
+package com.matalok.yamg.ui;
 
 //-----------------------------------------------------------------------------
 import java.util.HashSet;
@@ -9,13 +9,13 @@ import com.badlogic.gdx.graphics.Pixmap;
 import com.badlogic.gdx.scenes.scene2d.InputEvent;
 import com.badlogic.gdx.utils.Array;
 import com.badlogic.gdx.utils.XmlReader;
-import com.fomin.yamg.CfgReader;
-import com.fomin.yamg.CommonObject;
-import com.fomin.yamg.Logger;
-import com.fomin.yamg.Obj;
-import com.fomin.yamg.TaskMan;
-import com.fomin.yamg.UserMan;
-import com.fomin.yamg.Utils;
+import com.matalok.yamg.CfgReader;
+import com.matalok.yamg.CommonObject;
+import com.matalok.yamg.Logger;
+import com.matalok.yamg.Obj;
+import com.matalok.yamg.TaskMan;
+import com.matalok.yamg.UserMan;
+import com.matalok.yamg.Utils;
 
 // -----------------------------------------------------------------------------
 public class LevelSelectorWidget extends ContainerWidget {
