@@ -1,0 +1,13 @@
+GIMP Palette
+Name: au-game-000
+Columns: 1
+#
+187  23  11	back-prim
+208  51  40	back-sec
+124   9   0	rock
+255   9   0 rock-detail
+227 177  84	sand
+255 255  74	gold
+200 200  90 gold-detail
+123 208 215	water
+200 200 200 ui

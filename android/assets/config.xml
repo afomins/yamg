@@ -1,0 +1,100 @@
+<root>
+    <timer/>
+    <task-man/>
+
+    <mem-man>
+        <config logging="true"/>
+    </mem-man>
+
+    <service-man>
+        <config timer-rate="5000"/>
+    </service-man>
+
+    <user-man>
+        <config path="user-profile.xml"/>
+    </user-man>
+
+    <game-man>
+        <config 
+          startup-level="001-test-128x64"
+          explosion-mesh="misc/block-10x10.tga"
+          palette-update-duration="2000"/>
+    </game-man>
+
+    <state-man>
+        <config splash-screen-duration="0"/>
+    </state-man>
+
+    <level-man>
+        <config 
+            material-palette="palette/material.gpl"
+            material-profile="default"
+            layer-profile="full"/>
+
+        <material>
+            <default>
+                <ok id="empty" alpha="0.0" is_static="true"  density="gaseous" delay="000" accel="0" min-delay="00"/>
+                <ok id="rock"  alpha="1.0" is_static="true"  density="solid"   delay="000" accel="0" min-delay="00"/>
+                <ok id="sand"  alpha="1.0" is_static="false" density="loose"   delay="100" accel="2" min-delay="80"/>
+                <ok id="gold"  alpha="1.0" is_static="false" density="loose"   delay="070" accel="2" min-delay="90"/>
+                <ok id="water" alpha="0.6" is_static="false" density="liquid"  delay="070" accel="2" min-delay="80"/>
+            </default>
+        </material>
+
+        <layer>
+            <full>
+                <ok id="back-prim"     mask=""              fx="default"     material="empty" is_fading="false" is_visible="true"/>
+                <nok id="back-sec-mask" mask=""             fx="default"     material="empty" is_fading="false" is_visible="false"/>
+                <ok id="back-sec"      mask=""              fx="alpha-shift" material="empty" is_fading="false" is_visible="true"  freq="10"/>
+                <ok id="rock"          mask=""              fx="default"     material="rock"  is_fading="false" is_visible="true"/>
+                <ok id="rock-detail"   mask="rock"          fx="default"     material="empty" is_fading="false" is_visible="true"/>
+                <ok id="sand"          mask=""              fx="blur"        material="sand"  is_fading="false" is_visible="true"  freq="50" alpha="0.9, 0.8"/>
+                <nok id="sand-detail"   mask="sand"          fx="default"     material="empty" is_fading="false" is_visible="true"/>
+                <ok id="gold"          mask=""              fx="blur"        material="gold"  is_fading="false" is_visible="true"  freq="50" alpha="0.9, 0.8"/>
+                <nok id="gold-detail"   mask="gold"          fx="tx-shift"    material="empty" is_fading="false" is_visible="true"  freq="40"/>
+                <ok id="water"         mask=""              fx="blur"        material="water" is_fading="false" is_visible="true"  freq="50" alpha="0.9, 0.8"/>
+                <ok id="ui"            mask=""              fx="blur"        material="empty" is_fading="true"  is_visible="true"  freq="50" alpha="0.8, 0.6, 0.4"/>
+            </full>
+
+            <test-000>
+                <ok id="back-prim"     mask=""              fx="default"     material="empty" is_fading="false" is_visible="true"/>
+                <ok id="rock"          mask=""              fx="default"     material="rock"  is_fading="false" is_visible="true"/>
+                <ok id="rock-detail"   mask="rock"          fx="default"     material="empty" is_fading="false" is_visible="true"/>
+                <ok id="sand"          mask=""              fx="default"     material="sand"  is_fading="false" is_visible="true"/>
+                <ok id="sand-detail"   mask="sand"          fx="default"     material="empty" is_fading="false" is_visible="true"/>
+                <ok id="gold"          mask=""              fx="default"     material="gold"  is_fading="false" is_visible="true"/>
+                <ok id="gold-detail"   mask="gold"          fx="default"     material="empty" is_fading="false" is_visible="true"/>
+                <ok id="water"         mask=""              fx="default"     material="water" is_fading="false" is_visible="true"/>
+                <ok id="ui"            mask=""              fx="default"     material="empty" is_fading="true"  is_visible="true"/>
+            </test-000>
+
+            <min>
+                <ok id="back-prim" mask="" fx="default" material="empty" is_fading="false" is_visible="true"/>
+                <ok id="rock"      mask="" fx="default" material="rock"  is_fading="false" is_visible="true"/>
+                <ok id="sand"      mask="" fx="default" material="sand"  is_fading="false" is_visible="true"/>
+                <ok id="gold"      mask="" fx="default" material="gold"  is_fading="false" is_visible="true"/>
+                <ok id="water"     mask="" fx="default" material="water" is_fading="false" is_visible="true"/>
+                <ok id="ui"        mask="" fx="default" material="empty" is_fading="true"  is_visible="true"/>
+            </min>
+        </layer>
+    </level-man>
+
+    <logger>
+        <config 
+          tag="yamg" 
+          log-level="debug"/>
+    </logger>
+
+    <ui-man>
+        <menu
+          path="ui/main-menu-buttons-wvga.xml"/>
+        <level-selector
+          path="ui/level-selector.xml"/>
+        <window
+          scroll-duration="300"
+          gap-size="5"
+          border-size="1"
+          back-color="0 0 0 100"
+          border-color="100 0 0 170"/>
+    </ui-man>
+</root>

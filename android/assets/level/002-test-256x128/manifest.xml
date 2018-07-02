@@ -1,0 +1,21 @@
+<cfg>
+    <general>
+        <config 
+            name="fluid liquids"
+            author="afomins@gmail.com"
+
+            map="map.tga"
+            background="background.tga"
+            background-mask="background-mask.tga"
+            rock-detail="rock-detail.tga"
+            sand-detail="rock-detail.tga"
+            gold-detail="rock-detail.tga"
+            icon="../dummy/dummy-icon.tga"
+        />
+    </general>
+
+    <palette>
+        <normal val="idle.gpl"/>
+        <alarm  val="alarm.gpl"/>
+    </palette>
+</cfg>

@@ -1,0 +1,56 @@
+<root>
+    <general
+        path="ui/main-menu-buttons-wvga.tga"
+        width="112"
+        height="96"
+    />
+
+    <background>
+        <ok idx="0" state="up"/>
+        <ok idx="1" state="down"/>
+    </background>
+
+    <button>
+        <back>
+            <ok idx="2" state="up"/>
+            <ok idx="3" state="down"/>
+            <ok idx="4" state="disabled"/>
+        </back>
+        <game>
+            <ok idx="5" state="up"/>
+            <ok idx="6" state="down"/>
+        </game>
+        <settings>
+            <ok idx="7" state="up"/>
+            <ok idx="8" state="down"/>
+        </settings>
+        <reset>
+            <ok idx="9" state="up"/>
+            <ok idx="10" state="down"/>
+        </reset>
+        <quit>
+            <ok idx="11" state="up"/>
+            <ok idx="12" state="down"/>
+        </quit>
+        <menu>
+            <ok idx="13" state="up"/>
+            <ok idx="14" state="down"/>
+        </menu>
+        <yes>
+            <ok idx="15" state="up"/>
+            <ok idx="16" state="down"/>
+        </yes>
+        <no>
+            <ok idx="17" state="up"/>
+            <ok idx="18" state="down"/>
+        </no>
+        <bomb>
+            <ok idx="19" state="up"/>
+            <ok idx="20" state="down"/>
+        </bomb>
+        <game-action-01/>
+        <game-action-02/>
+        <game-action-03/>
+        <empty/>
+    </button>
+</root>

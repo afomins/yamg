@@ -1,0 +1,44 @@
+<root>
+    <config
+        buttons="ui/level-selector-buttons-wvga.xml"/>
+    <level-pack>
+        <test>
+            <ok name="001-test-128x64"/>
+            <ok name="002-test-256x128"/>
+            <ok name="003-test-256x64"/>
+        </test>
+        <demo>
+            <ok name="dummy"/>
+            <ok name="dummy"/>
+            <ok name="dummy"/>
+            <ok name="dummy"/>
+        </demo>
+        <dummy>
+            <ok name="dummy"/>
+            <ok name="dummy"/>
+            <ok name="dummy"/>
+            <ok name="dummy"/>
+            <ok name="dummy"/>
+            <ok name="dummy"/>
+            <ok name="dummy"/>
+            <ok name="dummy"/>
+            <ok name="dummy"/>
+            <ok name="dummy"/>
+            <ok name="dummy"/>
+            <ok name="dummy"/>
+            <ok name="dummy"/>
+            <ok name="dummy"/>
+            <ok name="dummy"/>
+            <ok name="dummy"/>
+            <ok name="dummy"/>
+            <ok name="dummy"/>
+            <ok name="dummy"/>
+            <ok name="dummy"/>
+            <ok name="dummy"/>
+            <ok name="dummy"/>
+            <ok name="dummy"/>
+            <ok name="dummy"/>
+            <ok name="dummy"/>
+        </dummy>
+    </level-pack>
+</root>

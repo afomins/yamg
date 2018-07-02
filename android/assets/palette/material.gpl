@@ -1,0 +1,9 @@
+GIMP Palette
+Name: au-editor
+Columns: 1
+#
+  0   0   0	empty
+124 124 124	rock
+255 162   0	sand
+255 246   0	gold
+ 88 143 255	water

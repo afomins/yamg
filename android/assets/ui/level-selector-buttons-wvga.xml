@@ -1,0 +1,32 @@
+<root>
+    <general
+        path="ui/level-selector-buttons-wvga.tga"
+        width="96"
+        height="96"
+    />
+
+    <background>
+        <ok idx="0" state="up"/>
+        <ok idx="1" state="down"/>
+    </background>
+
+    <button>
+        <prev>
+            <ok idx="2" state="up"/>
+            <ok idx="3" state="down"/>
+            <ok idx="4" state="disabled"/>
+        </prev>
+        <next>
+            <ok idx="5" state="up"/>
+            <ok idx="6" state="down"/>
+            <ok idx="7" state="disabled"/>
+        </next>
+        <dummy>
+            <ok idx="8" state="up"/>
+            <ok idx="9" state="down"/>
+        </dummy>
+        <icon>
+            <ok idx="10" state="up"/>
+        </icon>
+    </button>
+</root>

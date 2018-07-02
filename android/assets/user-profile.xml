@@ -1,0 +1,9 @@
+<root>
+    <config name="John McClane"/>
+
+    <open-levels>
+        <ok name="001-test-128x64"/>
+        <ok name="002-test-256x128"/>
+        <ok name="003-test-256x64"/>
+    </open-levels>
+</root>
