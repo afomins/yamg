@@ -180,7 +180,7 @@ public class ShaderMan extends Obj.CommonObject {
         }
 
         // Validate compilation status
-        Utils.Assert(sh.isCompiled(), "Shader failure :: [log=%s]", sh.getLog());
+        Utils.Assert(sh.isCompiled(), "Shader failure :: [log=%s]", "sh.getLog()");
         Logger.d(Logger.MOD_SH, "  [frag=%s] [vert=%s]", frag_path, vert_path);
         this.sh_list.add(sh);
         return sh;

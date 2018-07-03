@@ -1,10 +1,15 @@
 <cfg>
     <general>
-        <config 
+            <!--
+            HACK: Libgdx 1.9.8 fails to load indexed TGA image that's why I
+                  saved map as RGB BGP image "map.tga" -> "map_rgb.bmp"
+            -->
+
+        <config
             name="turkish cinamon"
             author="afomins@gmail.com"
 
-            map="map.tga"
+            map="map_rgb.bmp"
             background="background.tga"
             background-mask="background-mask.tga"
             rock-detail="rock-detail.tga"

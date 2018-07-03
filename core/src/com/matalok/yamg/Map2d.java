@@ -2,6 +2,7 @@
 package com.matalok.yamg;
 
 //-----------------------------------------------------------------------------
+import java.nio.ByteBuffer;
 import java.util.Iterator;
 
 import com.badlogic.gdx.Gdx;
@@ -191,13 +192,12 @@ public class Map2d<T> {
           path, pm.getWidth(), pm.getHeight());
 
         // Fill map
+        int idx = 0;
         for(int y = 0; y < pm.getHeight(); y++) {
             for(int x = 0; x < pm.getWidth(); x++) {
-                int rgb = pm.getPixel(x, y);
+                int rgb = pm.getPixel(x, y); // TODO: this fails with libgdx 1.9.8 when
+                                             //       reading pixels of indexed TGA
                 T val = (cm != null && cm.get(rgb) != null) ? cm.get(rgb) : this.default_val;
-                if(val instanceof Byte) {
-                    Logger.d("JJFK :: rgb=%d pm=%d", rgb, (Byte) val);
-                }
                 this.SetEntry(x, y, val);
             }
         }
