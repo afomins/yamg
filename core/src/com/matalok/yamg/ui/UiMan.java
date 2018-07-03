@@ -1,3 +1,21 @@
+/*
+ * YAMG - Yet Another Mining Game
+ * Copyright (C) 2013 Alex Fomins
+ *
+ * This program is free software: you can redistribute it and/or modify
+ * it under the terms of the GNU General Public License as published by
+ * the Free Software Foundation, either version 3 of the License, or
+ * (at your option) any later version.
+ *
+ * This program is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ * GNU General Public License for more details.
+ *
+ * You should have received a copy of the GNU General Public License
+ * along with this program.  If not, see <http://www.gnu.org/licenses/>
+ */
+
 // -----------------------------------------------------------------------------
 package com.matalok.yamg.ui;
 
@@ -241,7 +259,7 @@ public class UiMan extends ServiceMan.Service {
           wnd.GetClientRect().width / 2 - img.GetSize().x / 2, 
           wnd.GetClientRect().height - img.GetSize().y - this.main_menu_button_size.y / 2);
         {
-            l = new LabelWidget(Color.WHITE, "(c) 2013 Alex matalok, amataloks@gmail.com");
+            l = new LabelWidget(Color.WHITE, "(c) 2013 Alex Fomins, afomins@gmail.com");
             wnd.AddChild(l).SetPos(4, 2);
             this.AddWidget(Utils.ID_UNDEFINED, l, false);
             int label_height = l.GetSize().y;
