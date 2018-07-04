@@ -1,8 +1,8 @@
 # What is *"YAMG"*
-*"YAMG"* aka "*Yet Another Mining Game*" is game prototype that simulates *sandbox* where different materials interact with each other in 2D space controlled by gravity. This prototype demonstrates only basic and rough material interaction without any real gameplay.
+*"YAMG"* (aka "*Yet Another Mining Game*") is game prototype that simulates *sandbox* where different materials (rock, sand, gold and water) interact with each other in 2D space controlled by gravity. This prototype demonstrates only basic and rough material interaction without any real gameplay.
 
 # Downloads
-*"Pixel Dungeon 3D"* `v0.2.8` binaries:
+*"YAMG"* `v0.4.0` binaries:
  * Desktop JAR - https://github.com/afomins/yamg/releases/download/v0.4.0/yamg-v0.4.0.jar
  * Android APK - https://github.com/afomins/yamg/releases/download/v0.4.0/yamg-v0.4.0.apk
  
