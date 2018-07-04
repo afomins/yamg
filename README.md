@@ -9,12 +9,16 @@
 # How it looks
 Following GIFs illustrate YAMG looks:
 
-| title 1 | title 2 |
+| 1st demo level | 2nd demo level |
 | --|--|
-| <img src="" width="400"> | <img src="" width="400"> |
+| <img src="https://github.com/afomins/yamg/blob/master/android/assets-raw/yamg_000.gif" width="400"> | <img src="https://github.com/afomins/yamg/blob/master/android/assets-raw/yamg_001.gif" width="400"> |
 
-| title 3 | title 4 |
+| 3rd demo level | GUI & Load screen |
 | --|--|
-| <img src="" width="400"> | <img src="" width="400"> |
+| <img src="https://github.com/afomins/yamg/blob/master/android/assets-raw/yamg_002.gif" width="400"> | <img src="https://github.com/afomins/yamg/blob/master/android/assets-raw/yamg_003.gif" width="400"> |
 
-# How to build standalone Desktop app
+# How to build Desktop app
+ * Clone `git@github.com:afomins/yamg.git` and import *Gradle* project into your favorite IDE
+ * Allow *Gradle* to download dependent packages and update project files
+ * Run `com.matalok.yamg.desktop.DesktopLauncher` class
+
