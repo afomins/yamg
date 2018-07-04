@@ -7,8 +7,6 @@
  * Android APK - https://github.com/afomins/yamg/releases/download/v0.4.0/yamg-v0.4.0.apk
  
 # How it looks
-Following GIFs illustrate YAMG looks:
-
 | 1st demo level | 2nd demo level |
 | --|--|
 | <img src="https://github.com/afomins/yamg/blob/master/android/assets-raw/yamg_000.gif" width="400"> | <img src="https://github.com/afomins/yamg/blob/master/android/assets-raw/yamg_001.gif" width="400"> |
